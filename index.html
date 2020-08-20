@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linx - Desafio Técnico Frontend (Index)</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header id="hero">
+      <div class="hero-text-container">
+        <h1 class="hero-title">
+          uma seleção de produtos <span class="bigger">especial para você</span>
+        </h1>
+        <p class="hero-subtitle">
+          Todos os produtos desta lista foram selectionados a partir da sua
+          navegação. Aproveite!
+        </p>
+      </div>
+      <div class="hero-button-group">
+        <button class="button hero-button">Conheça a Linx</button>
+        <button class="button hero-button">Ajude o algoritmo</button>
+        <button class="button hero-button">Seus produtos</button>
+        <button class="button hero-button">Compartilhe</button>
+      </div>
+    </header>
+    <div class="container">
+      <section id="algorithm">
+        <div class="left-side">
+          <h2 class="section-title">Ajude o algoritmo a ser mais certeiro</h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="right-side">
+          <form action="" id="help-algorithm-form">
+            <label for="user_name">Seu nome:</label>
+            <input type="text" id="user_name" name="name" />
+            <label for="user_email">E-mail:</label>
+            <input type="email" id="user_email" name="email" />
+            <label for="user_cpf">CPF:</label>
+            <input type="text" id="user_cpf" name="cpf" />
+            <input
+              type="checkbox"
+              id="user_sex_male"
+              name="vehicle1"
+              value="male"
+            />
+            <label for="user_sex_male">Masculino</label>
+            <input
+              type="checkbox"
+              id="user_sex_female"
+              name="vehicle2"
+              value="female"
+            />
+            <label for="user_sex_female">Feminino</label>
+            <button type="submit" class="button button-form">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <section id="products">
+        <h2 class="section-title section-title-center">Sua seleção especial</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="" alt="" class="product-img" />
+            <h3 class="product-name">Nome do produto</h3>
+            <p class="product-description">
+              Descrição do produto um pouco maior, com duas linhas ou três que
+              explica melhor do que se trata.
+            </p>
+            <p class="old-price">De: R$23,99</p>
+            <p class="new-price">Por: R$19,99</p>
+            <p class="installment-payment">
+              ou <span class="installment-count">2x</span> de
+              <span class="installment-price">R$9,99</span>
+            </p>
+            <button class="button button-card">Comprar</button>
+          </div>
+          <div class="product-card">
+            <img src="" alt="" class="product-img" />
+            <h3 class="product-name">Nome do produto</h3>
+            <p class="product-description">
+              Descrição do produto um pouco maior, com duas linhas ou três que
+              explica melhor do que se trata.
+            </p>
+            <p class="old-price">De: R$23,99</p>
+            <p class="new-price">Por: R$19,99</p>
+            <p class="installment-payment">
+              ou <span class="installment-count">2x</span> de
+              <span class="installment-price">R$9,99</span>
+            </p>
+            <button class="button button-card">Comprar</button>
+          </div>
+          <div class="product-card">
+            <img src="" alt="" class="product-img" />
+            <h3 class="product-name">Nome do produto</h3>
+            <p class="product-description">
+              Descrição do produto um pouco maior, com duas linhas ou três que
+              explica melhor do que se trata.
+            </p>
+            <p class="old-price">De: R$23,99</p>
+            <p class="new-price">Por: R$19,99</p>
+            <p class="installment-payment">
+              ou <span class="installment-count">2x</span> de
+              <span class="installment-price">R$9,99</span>
+            </p>
+            <button class="button button-card">Comprar</button>
+          </div>
+          <div class="product-card">
+            <img src="" alt="" class="product-img" />
+            <h3 class="product-name">Nome do produto</h3>
+            <p class="product-description">
+              Descrição do produto um pouco maior, com duas linhas ou três que
+              explica melhor do que se trata.
+            </p>
+            <p class="old-price">De: R$23,99</p>
+            <p class="new-price">Por: R$19,99</p>
+            <p class="installment-payment">
+              ou <span class="installment-count">2x</span> de
+              <span class="installment-price">R$9,99</span>
+            </p>
+            <button class="button button-card">Comprar</button>
+          </div>
+        </div>
+        <button class="button button-section">Ainda mais produtos aqui!</button>
+      </section>
+      <section id="share">
+        <h2 class="section-title section-title-center">
+          Compartilhe a novidade
+        </h2>
+        <p class="section-subtitle">
+          Quer que seus amigos também ganhem a lista personalizada deles?
+          Preencha agora!
+        </p>
+        <form action="" id="newsteller-inline-form">
+            <label for="friend-name">Nome do seu amigo:</label>
+            <input type="text" id="friend-name" />
+            <label for="friend-email">E-mail:</label>
+            <input type="email" id="friend-email" />
+            <button class="button button-form button-center">Enviar agora</button>
+        </form>
+      </section>
+    </div>
+    <footer id="footer">
+        <div class="footer-text-container">
+            <p class="footer-text">Testando suas habilidades em HTML, CSS e JS.</p>
+            <p class="footer-text">Linx Impulse</p>
+            <p class="footer-text">2019</p>
+        </div>
+    </footer>
+  </body>
 </html>
