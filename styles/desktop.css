@@ -58,12 +58,11 @@ body {
 }
 
 #help-algorithm-form {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
 .form-input {
+  padding: 0;
   margin-bottom: 1%;
 }
 
@@ -71,7 +70,6 @@ body {
   display: flex;
   align-items: center;
   margin-top: 4%;
-  margin-bottom: 5%;
 }
 
 /* PRODUCTS SECTION */
@@ -80,6 +78,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.section-title {
+  margin: 0;
 }
 
 .section-title-center {
@@ -151,8 +153,24 @@ body {
   width: 100%;
 }
 
-.button-form {
-  width: 50%;
-  height: 40px;
-  margin-bottom: 100px;
+/* FOOTER SECTION */
+
+#footer {
+  background-color: #707070;
+  position: static;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 2% 0;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+/* UTILS */
+
+.w-100 {
+  width: 100%;
 }
