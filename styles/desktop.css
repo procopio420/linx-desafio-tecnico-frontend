@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.container {
+  margin: 0 20%;
+}
+
+/* HERO SECTION */
+
 #hero {
   background-color: #707070;
   width: 100%;
@@ -28,5 +34,43 @@ body {
 }
 
 .hero-button {
-  margin-left: 50px; 
+  margin-left: 50px;
+}
+
+/* ALGORITHM SECTION */
+
+#algorithm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.left-side {
+  flex-direction: column;
+  margin-right: 5%;
+  width: 70%;
+}
+
+.right-side {
+  flex-direction: column;
+  min-width: 35%;
+}
+
+#help-algorithm-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-input{
+    margin-bottom: 1%;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
 }

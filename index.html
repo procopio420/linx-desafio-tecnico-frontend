@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linx - Desafio Técnico Frontend (Index)</title>
-    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/desktop.css" />
   </head>
   <body>
     <header id="hero">
@@ -49,36 +49,49 @@
         </div>
         <div class="right-side">
           <form action="" id="help-algorithm-form">
-            <label for="user_name">Seu nome:</label>
-            <input type="text" id="user_name" name="name" />
-            <label for="user_email">E-mail:</label>
-            <input type="email" id="user_email" name="email" />
-            <label for="user_cpf">CPF:</label>
-            <input type="text" id="user_cpf" name="cpf" />
+            <label for="user_name">Seu nome:</label><br />
+            <input type="text" id="user_name" name="name" class="form-input" />
+            <br />
+            <label for="user_email">E-mail:</label><br />
             <input
-              type="checkbox"
-              id="user_sex_male"
-              name="vehicle1"
-              value="male"
+              type="email"
+              id="user_email"
+              name="email"
+              class="form-input"
             />
-            <label for="user_sex_male">Masculino</label>
-            <input
-              type="checkbox"
-              id="user_sex_female"
-              name="vehicle2"
-              value="female"
-            />
-            <label for="user_sex_female">Feminino</label>
+            <br />
+            <label for="user_cpf">CPF:</label><br />
+            <input type="text" id="user_cpf" name="cpf" class="form-input" />
+            <br />
+            <div class="form-checkbox">
+              <input
+                type="checkbox"
+                id="user_sex_male"
+                name="vehicle1"
+                value="male"
+              />
+              <label for="user_sex_male">Masculino</label>
+              <input
+                type="checkbox"
+                id="user_sex_female"
+                name="vehicle2"
+                value="female"
+              />
+              <label for="user_sex_female">Feminino</label>
+            </div>
+
+            <br />
+
             <button type="submit" class="button button-form">Enviar</button>
           </form>
         </div>
       </section>
       <section id="products">
         <h2 class="section-title section-title-center">Sua seleção especial</h2>
-        <div id="product-list">
-          
-        </div>
-        <button id="next-page-button" class="button button-section">Ainda mais produtos aqui!</button>
+        <div id="product-list"></div>
+        <button id="next-page-button" class="button button-section">
+          Ainda mais produtos aqui!
+        </button>
       </section>
       <section id="share">
         <h2 class="section-title section-title-center">
