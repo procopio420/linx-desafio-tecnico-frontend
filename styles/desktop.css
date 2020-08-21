@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+#hero {
+  background-color: #707070;
+  width: 100%;
+  min-height: 300px;
+  max-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-text-container {
+  margin-bottom: 5%;
+}
+
+.hero-title {
+  margin: 0;
+  text-align: center;
+}
+
+.hero-subtitle {
+  margin: 0;
+  text-align: center;
+}
+
+.hero-button {
+  margin-left: 50px; 
+}
