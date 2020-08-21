@@ -58,19 +58,60 @@ body {
 }
 
 #help-algorithm-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.form-input{
-    margin-bottom: 1%;
+.form-input {
+  margin-bottom: 1%;
 }
 
 .form-checkbox {
-    display: flex;
-    align-items: center;
-    margin-top: 4%;
-    margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+/* PRODUCTS SECTION */
+
+#products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title-center {
+  text-align: center;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 20%;
+  margin: 20px;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.new-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.button-card {
+  width: 100%;
+}
+
+.button-section {
+  width: 50%;
+  height: 40px;
+  margin: 50px 0;
 }
