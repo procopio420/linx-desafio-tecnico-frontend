@@ -25,7 +25,7 @@ body {
 
 .hero-title {
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-subtitle {
@@ -173,4 +173,8 @@ body {
 
 .w-100 {
   width: 100%;
+}
+
+.bigger {
+  font-size: 48px;
 }

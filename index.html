@@ -10,7 +10,7 @@
     <header id="hero">
       <div class="hero-text-container">
         <h1 class="hero-title">
-          uma seleção de produtos <span class="bigger">especial para você</span>
+          uma seleção de produtos <br/><span class="bigger">especial para você</span>
         </h1>
         <p class="hero-subtitle">
           Todos os produtos desta lista foram selectionados a partir da sua
@@ -48,34 +48,51 @@
           </p>
         </div>
         <div class="right-side">
-          <form action="" id="help-algorithm-form">
-            <label for="user_name">Seu nome:</label><br />
-            <input type="text" id="user_name" name="name" class="form-input" />
-            <br />
-            <label for="user_email">E-mail:</label><br />
-            <input
-              type="email"
-              id="user_email"
-              name="email"
-              class="form-input"
-            />
-            <br />
-            <label for="user_cpf">CPF:</label><br />
-            <input type="text" id="user_cpf" name="cpf" class="form-input" />
-            <br />
-            <div class="form-checkbox">
-              <input type="radio" id="user_sex_male" name="sex" value="male" />
-              <label for="user_sex_male">Masculino</label>
+          <form id="help-algorithm-form" novalidate>
+            <div id="user_name_container">
+              <label for="user_name">Nome:</label><br />
               <input
-                type="radio"
-                id="user_sex_female"
-                name="sex"
-                value="female"
+                type="text"
+                id="user_name"
+                name="name"
+                class="form-input"
               />
-              <label for="user_sex_female">Feminino</label>
+            </div>
+            <div id="user_email_container">
+              <label for="user_email">E-mail:</label><br />
+              <input
+                type="email"
+                id="user_email"
+                name="email"
+                class="form-input"
+              />
+            </div>
+            <div id="user_cpf_container">
+              <label for="user_cpf">CPF:</label><br />
+              <input type="text" id="user_cpf" name="cpf" class="form-input" />
+            </div>
+            <div id="user_sex_container">
+              <div class="form-checkbox">
+                <input
+                  type="radio"
+                  id="user_sex_male"
+                  name="sex"
+                  value="male"
+                />
+                <label for="user_sex_male">Masculino</label>
+                <input
+                  type="radio"
+                  id="user_sex_female"
+                  name="sex"
+                  value="female"
+                />
+                <label for="user_sex_female">Feminino</label>
+              </div>
             </div>
             <br />
-            <button type="submit" class="button button-form w-100">Enviar</button>
+            <button type="submit" class="button button-form w-100">
+              Enviar
+            </button>
           </form>
         </div>
       </section>
@@ -94,13 +111,13 @@
           Quer que seus amigos também ganhem a lista personalizada deles?
           Preencha agora!
         </p>
-        <form action="" id="newsteller-inline-form">
+        <form id="newsteller-inline-form" novalidate>
           <div class="inline-form">
-            <div class="inline-form-input">
+            <div class="inline-form-input" id="friend-name-container">
               <label for="friend-name">Nome do seu amigo:</label><br />
               <input class="form-input" type="text" id="friend-name" />
             </div>
-            <div class="inline-form-input">
+            <div class="inline-form-input" id="friend-email-container">
               <label for="friend-email">E-mail:</label><br />
               <input class="form-input" type="email" id="friend-email" />
             </div>
@@ -116,6 +133,7 @@
         <p class="footer-text">2020</p>
       </div>
     </footer>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/products.js"></script>
+    <script src="scripts/validation.js"></script>
   </body>
 </html>
