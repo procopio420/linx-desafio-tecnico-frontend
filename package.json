@@ -1,0 +1,15 @@
+{
+  "name": "desafio-tecnico-linx-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "procopio420 <lucas-procopio@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest ./tests"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.1"
+  }
+}
