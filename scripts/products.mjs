@@ -1,4 +1,5 @@
 `use strict`;
+
 let ProductPageURL = 'https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1';
 
 const generateProductCard = ({ name, image, description, installments, oldPrice, price }) => {
