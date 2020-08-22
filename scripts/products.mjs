@@ -3,7 +3,7 @@
 let ProductPageURL = 'https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1';
 
 const generateProductCard = ({ name, image, description, installments, oldPrice, price }) => {
-  return `<img src="${image}" alt="" class="w-100" />
+  return `<img src="${image}" alt="" class="product-image w-100" />
   <h3 class="product-name">${name}</h3>
   <p class="product-description">${description}</p>
   <p class="old-price">De: R$${oldPrice.toFixed(2)}</p>
@@ -11,7 +11,7 @@ const generateProductCard = ({ name, image, description, installments, oldPrice,
   <p class="installment-payment">
   ou ${installments.count}x de R$${installments.value.toFixed(2)}
   </p>
-  <button class="button w-100">Comprar</button>`;
+  <button class="button product-button w-100">Comprar</button>`;
 };
 
 const renderProductCard = (product) => {

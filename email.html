@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: black;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linx - Desafio Técnico Frontend (Email)</title>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
-  <body>
-    <header id="hero">
-      <div class="hero-text-container">
-        <h1 class="hero-title">uma seleção de produtos <br /><span class="bigger">especial para você</span></h1>
-        <p class="hero-subtitle">
+  <body class="w-50" style="margin: 0 auto; background-color: white;">
+    <header id="hero" class="bg-grey d-flex justify-content-center align-items-center flex-column">
+      <div>
+        <h1 class="m-0">uma seleção de produtos <br /><span class="bigger">especial para você</span></h1>
+        <p>
           Todos os produtos desta lista foram selectionados a partir da sua navegação. Aproveite!
         </p>
       </div>
     </header>
-    <section class="container">
+    <section class="container-fluid">
       <div>
-        <h2 class="section-title">Olá, Fulano</h2>
-        <p class="section-text">
+        <h2>Olá, Fulano</h2>
+        <p>
           Fizemos uma lista especial de produtos apenas para você. Isoo mesmo: nesta lista temos só produtos que você
-          pode gostar. Seu amigo Ciclano lhe recomendou essa lista especial. Olha só
+          pode gostar. Seu amigo Ciclano lhe recomendou essa lista especial. Olha só:
         </p>
       </div>
-      <div id="products">
-        <h2 class="section-title section-title-center">Sua seleção especial</h2>
-        <div id="product-list">
+      <div class="mt-3">
+        <h2 class="text-center">Sua seleção especial</h2>
+        <div class="d-flex justify-content-center align-items-center flex-wrap">
           <div class="product-card">
             <img
               src="//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6124117"
               alt=""
-              class="product-img"
+              class="product-img w-100"
             />
             <h3 class="product-name">Product Number 0</h3>
             <p class="product-description">
@@ -41,13 +41,13 @@
             <p class="installment-payment">
               ou 10x de R$16.80
             </p>
-            <button class="button button-card">Comprar</button>
+            <button class="button product-button w-100">Comprar</button>
           </div>
           <div class="product-card">
             <img
               src="//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6584703"
               alt=""
-              class="product-img"
+              class="product-img w-100"
             />
             <h3 class="product-name">Product Number 1</h3>
             <p class="product-description">
@@ -58,19 +58,21 @@
             <p class="installment-payment">
               ou 10x de R$40.40
             </p>
-            <button class="button button-card">Comprar</button>
+            <button class="button product-button w-100">Comprar</button>
           </div>
         </div>
-        <a href="index.html" id="next-page-button" class="button button-section">
-          Tem muito mais aqui. Vem ver!
-        </a>
+        <div class="d-flex justify-content-center align-items-center">
+          <a href="index.html" id="next-page-button" class="button w-50 mt-5 text-center">
+            Tem muito mais aqui. Vem ver!
+          </a>
+        </div>
       </div>
     </section>
-    <footer id="footer">
-      <div class="footer-text-container">
-        <p class="footer-text">Testando suas habilidades em HTML, CSS e JS.</p>
-        <p class="footer-text">Linx Impulse</p>
-        <p class="footer-text">2020</p>
+    <footer id="footer" class="w-100 bg-grey d-flex justify-content-center mt-5">
+      <div>
+        <p class="text-center">Testando suas habilidades em HTML, CSS e JS.</p>
+        <p class="text-center">Linx Impulse</p>
+        <p class="text-center">2020</p>
       </div>
     </footer>
   </body>
