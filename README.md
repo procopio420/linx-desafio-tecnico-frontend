@@ -8,7 +8,7 @@ O resultado final pode ser conferido [aqui](https://linx-desafio-tecnico-fronten
 
 Para conferir a tela de desktop, basta acessar utilizando uma tela maior que x pixels.
 
-Para conferir a tela de mobile, basta acessar utilizando uma tela menor que x pixels ou utilizar o developer tools para simular uma tela mobile.
+Para conferir a tela de mobile, basta acessar utilizando uma tela menor que x pixels ou utilizar o developer tools para simular uma tela mobile. *DOING*
 
 Para conferir a tela do email, basta acessar link/email.html ou preencher o formulário de compartilhar que será redirecionado.
 
