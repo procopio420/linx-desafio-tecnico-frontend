@@ -45,7 +45,7 @@ userForm.addEventListener('submit', (e) => {
 friendForm.addEventListener('submit', (e) => {
   e.preventDefault();
   if (checkEmail(friendEmail.value) && checkName(friendName.value)) {
-    window.location.replace(`http://localhost:5500/email.html?name=${friendName.value}`);
+    window.location.replace(`https://linx-desafio-tecnico-frontend.vercel.app/email.html`);
     return;
   }
   if (!checkEmail(friendEmail.value)) {

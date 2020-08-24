@@ -4,7 +4,7 @@ One Paragraph of project description goes here
 
 ## Live preview
 
-O resultado final pode ser conferido aqui (link).
+O resultado final pode ser conferido [aqui](https://linx-desafio-tecnico-frontend.vercel.app/).
 
 Para conferir a tela de desktop, basta acessar utilizando uma tela maior que x pixels.
 
