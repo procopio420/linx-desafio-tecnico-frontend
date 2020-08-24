@@ -17,7 +17,7 @@ Para conferir a tela do email, basta acessar link/email.html ou preencher o form
 Caso deseje ter o projeto local, basta clonar o repositório.
 
 ```
-git clone lalalala.procopio420/desafio-tecnico-linx
+git clone https://github.com/procopio420/linx-desafio-tecnico-frontend.git
 ```
 
 E então, abra o arquivo index.html com um live server ou com um navegador.
@@ -28,7 +28,6 @@ Para rodar os testes, é necessário instalar o Jest, para isso basta instalar a
 
 ```
 yarn
-
 // ou npm install
 ```
 
@@ -36,6 +35,5 @@ E então, rode os testes.
 
 ```
 yarn test
-
 // ou npm run test
 ```
