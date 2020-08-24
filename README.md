@@ -1,6 +1,7 @@
 # Desafio Técnico Frontend - Linx
 
-One Paragraph of project description goes here
+O desafio consistia, basicamente, em 3 páginas estáticas (desktop, mobile e email) sem o uso de bibliotecas ou frameworks, apenas com HTML, CSS e JS.
+Também foi proposto a criação de 2 formulários e suas validações, além disso, há uma requisição numa API para pegar os dados de produtos.
 
 ## Live preview
 
