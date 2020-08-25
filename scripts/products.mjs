@@ -5,7 +5,7 @@ let ProductPageURL = 'https://frontend-intern-challenge-api.iurykrieger.now.sh/p
 const generateProductCard = ({ name, image, description, installments, oldPrice, price }) => {
   return `<img src="${image}" alt="" class="product-image w-100" />
   <h3 class="product-name">${name}</h3>
-  <p class="product-description">${description}</p>
+  <p class="product-description sm-hidden">${description}</p>
   <p class="old-price">De: R$${oldPrice.toFixed(2)}</p>
   <p class="new-price">Por: R$${price.toFixed(2)}</p>
   <p class="installment-payment">
